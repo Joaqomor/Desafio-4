@@ -1,0 +1,36 @@
+<div class="w-50 mx-auto" >
+
+    <h2 class="text-center">Agregar un producto</h2>
+
+    <div class="mb-3">
+    <label for="Title" class="form-label">Title</label>
+    <input type="text" class="form-control" id="Title">
+    </div>
+    <div class="mb-3">
+    <label for="Description" class="form-label">Description</label>
+    <input type="text" class="form-control" id="Description">
+    </div>
+    <div class="mb-3">
+    <label for="Code" class="form-label">Code</label>
+    <input type="text" class="form-control" id="Code">
+    </div>
+    <div class="mb-3">
+    <label for="Price" class="form-label">Price</label>
+    <input type="number" class="form-control" id="Price">
+    </div>
+    <div class="mb-3">
+    <label for="Stock" class="form-label">Stock</label>
+    <input type="number" class="form-control" id="Stock">
+    </div>
+    <select class="form-select" aria-label="Default select example">
+    <option selected>Seleccione una categoria</option>
+    <option value="1">int</option>
+    <option value="2">ext</option> 
+    </select>
+
+    <button type="submit" class="btn btn-success mt-3">Agregar producto</button>
+
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/index.js"></script>
